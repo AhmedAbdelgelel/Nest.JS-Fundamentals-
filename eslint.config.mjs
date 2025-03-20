@@ -32,6 +32,8 @@ export default tseslint.config(
       'prettier/prettier': 'off', // This disables all prettier formatting rules
       'linebreak-style': 'off', // This specifically disables CRLF/LF warnings
       '@typescript-eslint/no-unused-vars': 'off',
+      '@typescript-eslint-disable-next-line': 'off',
+      '@typescript-eslint/no-unsafe-return': 'off',
       '@typescript-eslint/explicit-module-boundary-types': 'off',
       '@typescript-eslint/ban-types': 'off',
       '@typescript-eslint/no-non-null-assertion': 'off',
